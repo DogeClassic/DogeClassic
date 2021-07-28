@@ -1,0 +1,9 @@
+Building Dogeclassic
+
+See doc/readme-qt.rst for instructions on building Dogeclassic-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Dogeclassic.
+
+See doc/build-*.txt for instructions on building dogeclassicd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Dogeclassic.

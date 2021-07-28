@@ -1,0 +1,34 @@
+src/*.exe
+src/dogeclassic
+src/dogeclassicd
+src/test_dogeclassic
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.dogeclassic
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+dogeclassic-qt
+Dogeclassic-Qt.app
+
+# Unit-tests
+Makefile.test
+dogeclassic-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
